@@ -17,7 +17,6 @@
 <ul>
 <li><a href="#slides">Slides</a></li>
 <li><a href="#hands-on">Hands-on</a></li>
-<li><a href="#real-world-example---dreddit">“Real world” example - DReddit</a></li>
 </ul>
 </li>
 </ul>
@@ -34,6 +33,9 @@
 <li>Installation prerequisites - cover any issues with installation</li>
 </ol>
 <h2 id="hands-on">Hands-on</h2>
+<p>Now let’s jump in to some hands-on examples</p>
+<h3 id="embark-demo">Embark demo</h3>
+<p>First, we have the Embark demo DApp. This is a good example of what Embark can do in regards to the four fundamental components of a truly decentralised application.</p>
 <ol>
 <li>Run <code>embark</code> without args to see command-specific help output. We will only be covering some of these today</li>
 <li>The Embark demo serves as a good starting point to see what kind of functionality Embark offers.</li>
@@ -131,7 +133,7 @@ cd embark_demo
 </ol>
 </li>
 </ol>
-<h2 id="real-world-example---dreddit">“Real world” example - DReddit</h2>
+<h3 id="real-world-example---dreddit">“Real world” example - DReddit</h3>
 <ol>
 <li>Make sure the Metamask extension is disabled</li>
 <li>Create a new DApp based on the DReddit template<pre><code>embark new dreddit-unicef --template embark-framework/dreddit-unicef-surge-2019
